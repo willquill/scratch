@@ -1,0 +1,2 @@
+# scratch
+For scratch projects
