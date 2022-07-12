@@ -8,6 +8,12 @@ from random import choices, randint
 
 ### Define functions
 def fancy(string):
+    # Input a string into this function to:
+    #   - Add three spaces before and after the string
+    #   - Get the length of the new string
+    #   - So "hey" becomes "   hey   " and the length becomes 9
+    #   - It's 9 because of 3 spaces + 3 characters + 3 spaces
+    #   - Return 9 asterisks, new line, "   hey   ", new line, 9 asterisks
     string = f"   {string}   "
     return f"\n{'*'*len(string)}\n{string}\n{'*'*len(string)}\n"
 
