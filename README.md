@@ -5,6 +5,8 @@ For scratch projects
 
 This script allows you to quickly and effortlessly modify the Title, Author, and Subject of an infinite number of PDF files in the current directory with a single command.
 
+**BACK UP YOUR FILES BEFORE RUNNING THIS!!! TEST ON A FEW COPIES FIRST!!** - *I provide no guarantees or support for this script*
+
 It is especially useful for modifying the metadata on PDF sheet music before importing into [forScore](https://forscore.co/). This allows you to automatically map the PDF metadata to the forScore values for Title, Composers, and Genres. The script can be modified to mass-modify, say, only the subject (genres) of a collection of PDF files, leaving the title/author as-is by simply deleting the references to title and author.
 
 After running the script to update the files and then importing the PDF files into forScore, use the Select All function in forScore and tap "Fetch" to retrieve the metadata from the PDF files and update the Title, Author, and Subject for each imported PDF.
